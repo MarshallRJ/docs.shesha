@@ -176,7 +176,7 @@ const config = {
       defer: true,
     }
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')]
+  plugins: [require.resolve('docusaurus-lunr-search'), 'docusaurus-markdown-source-plugin']
 };
 
 export default config;  
